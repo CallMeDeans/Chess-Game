@@ -1,0 +1,50 @@
+/* src/Chessboard.css */
+.board {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #333;
+  max-width: fit-content;
+  margin: 0 auto;
+  color: rgb(197, 197, 197)
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 70px; /* Adjust the size as needed */
+  height: 70px; /* Adjust the size as needed */
+  font-size: 50px; /* Adjust the size as needed to fit the square */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.square.dark {
+  background-color: rgba(90, 60, 33);
+}
+
+.square {
+  background-color: rgba(231, 199, 140);
+}
+
+.reset {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+
+.piece {
+  background-color: transparent;
+  z-index: 2;
+}
+
+.piece.dark {
+  color: black
+}
+
+.piece.light {
+  color: white
+}
