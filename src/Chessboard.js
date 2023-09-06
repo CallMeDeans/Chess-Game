@@ -19,8 +19,6 @@ const Chessboard = () => {
       Array(8).fill(""),
       Array(8).fill(""),
       Array(8).fill(""),
-      ["♙", "♙", "♙", "♙", "♙", "♙", "♙", "♙"],
-      ["♖", "♘", "♗", "♕", "♔", "♗", "♘", "♖"],
     ];
 
     setBoard(restartBoard);
